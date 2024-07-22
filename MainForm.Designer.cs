@@ -114,6 +114,7 @@
             // 
             txtId.Location = new Point(195, 67);
             txtId.Name = "txtId";
+            txtId.ReadOnly = true;
             txtId.Size = new Size(200, 39);
             txtId.TabIndex = 1;
             // 
@@ -158,9 +159,8 @@
             lblMessage.AutoSize = true;
             lblMessage.Location = new Point(23, 590);
             lblMessage.Name = "lblMessage";
-            lblMessage.Size = new Size(78, 32);
+            lblMessage.Size = new Size(0, 32);
             lblMessage.TabIndex = 1;
-            lblMessage.Text = "label5";
             // 
             // groupBox2
             // 
@@ -178,7 +178,7 @@
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(30, 245);
+            richTextBox1.Location = new Point(30, 247);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(613, 256);
             richTextBox1.TabIndex = 3;
