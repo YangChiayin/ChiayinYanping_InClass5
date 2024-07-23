@@ -59,7 +59,9 @@ namespace ChiayinYanping_InClass5
 
         private void btnShowAllPhrases_Click(object sender, EventArgs e)
         {
-            string[] phraseArray = phrases.Select(p => new string(p.Where(char.IsLetterOrDigit).ToArray())).Reverse().ToArray();
+            string[] phraseArray = phrases.Select(p => new string(p.Where(c => char.IsLetterOrDigit(c) || char.IsWhiteSpace(c)).ToArray()))
+                              .Reverse()
+                              .ToArray();
             richTextBox1.Clear();
             for (int i = 0; i < phraseArray.Length; i++)
             {
