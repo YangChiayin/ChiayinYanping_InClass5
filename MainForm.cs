@@ -1,3 +1,10 @@
+/* 
+ * Name of Project: ChiayinYanping_InClass5
+ * Purpose: Understaing the concept of "class library"
+ * Revision History: 
+ * - Chiayin Yang & Yanping Guo, July 23 2024, Create basic design and functions.
+ */
+
 using Users;
 
 namespace ChiayinYanping_InClass5

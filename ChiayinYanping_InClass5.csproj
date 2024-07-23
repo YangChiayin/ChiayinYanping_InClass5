@@ -9,9 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Users">
-      <HintPath>..\Users\bin\Debug\net8.0\Users.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Users\Users.csproj" />
   </ItemGroup>
 
 </Project>
